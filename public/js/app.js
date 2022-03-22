@@ -6,7 +6,7 @@ const firstText = document.querySelector('.text1');
 const secondText = document.querySelector('.text2');
 
 const fetchWeather = (location, callback) => {
-  fetch(`http://localhost:3000/weather?address=${location}`)
+  fetch(`/weather?address=${location}`)
     .then((response) => response.json())
     .then((data) => callback(data));
 };
