@@ -20,6 +20,7 @@ weatherForm.addEventListener('submit', (event) => {
     if (data.error) {
       const { error } = data;
       firstText.textContent = error;
+      secondText.textContent = '';
     } else {
       const { location, forecast } = data;
       firstText.textContent = location;
