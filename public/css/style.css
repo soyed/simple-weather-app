@@ -10,6 +10,11 @@ body {
   min-height: 100vh;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 .main-content {
   flex-grow: 1;
 }
@@ -26,7 +31,6 @@ h1 {
 header a {
   color: #aaaaaa;
   margin-right: 16px;
-  text-decoration: none;
 }
 
 footer {
@@ -51,4 +55,12 @@ button {
   background-color: #888888;
   color: white;
   padding: 8px;
+}
+.project-detail {
+  margin: 20px 0;
+}
+
+.project-detail a {
+  color: #f16262;
+  text-decoration: underline;
 }
