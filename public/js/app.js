@@ -27,4 +27,7 @@ weatherForm.addEventListener('submit', (event) => {
       secondText.textContent = forecast;
     }
   });
+
+  // reset the form input
+  searchElement.value = '';
 });
